@@ -1,0 +1,9 @@
+Command is behavioral design pattern that converts requests or simple operations into objects.
+
+it decouples the objects that create commands from the objects that execute those commands (Command Handler),
+providing more flexibility and modularity in the system.
+
+
+The main motivation for using the Command pattern is that the executor of the command does not need to know anything
+at all about what the command is, what context information it needs on or what it does. All of that is encapsulated in
+the command.

@@ -1,0 +1,2 @@
+Essentially, the strategy pattern allows us to change the behavior of an algorithm at runtime
+

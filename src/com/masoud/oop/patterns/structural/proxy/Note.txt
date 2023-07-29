@@ -1,0 +1,5 @@
+The Proxy Design Pattern is a structural design pattern that enables us to create a stand-in or replacement for
+another object. Using a proxy, you may conduct an action either before or after the request reaches the original
+object, controlling access to it.
+
+

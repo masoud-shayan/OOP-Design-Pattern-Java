@@ -1,0 +1,21 @@
+This pattern is commonly used when we start using the Factory Method Pattern,
+and we need to evolve our system to a more complex system. It centralizes the product creation code in one place.
+
+define an interface or abstract class for creating families of related (or dependent) objects but without specifying their concrete sub-classes.
+
+In abstract factory design pattern a super factory is responsible to create other factories of related objects. A factory
+will be created from a super factory class without exposing the creation logic to the client. Now, this factory
+will be responsible to create the objects based on Factory Design Pattern.
+
+
+
+
+Abstract Factory is a creational design pattern that provides an interface for creating families of related or dependent objects
+without specifying their concrete classes. It separates the details of object creation from their usage so that our code
+isn’t dependent on the types of objects that are already defined and won’t need to be altered when we add a new type of object.
+
+
+
+if we have to make a decision in client to select which one of our types wants to create,
+add a factory provider and pass a type (as String) from the client to it.
+with this way we delegate decision-making to the FactoryProvider

@@ -1,0 +1,18 @@
+The Mediator design pattern is a behavioral pattern that helps objects communicate with each other in a more organized
+and indirect way. Instead of directly interacting with each other, objects communicate through a central mediator,
+which acts as an intermediary.
+
+Imagine a situation where you have multiple objects in a system, and they need to collaborate and exchange information.
+Without a mediator, these objects would have to be aware of each other, leading to tight coupling and complexity.
+But with the Mediator pattern, the objects only need to know about the mediator, not each other.
+
+The mediator allows objects to send messages to other objects, and it handles the routing and coordination of
+these messages. This way, objects are decoupled and can focus on their specific tasks, leading to a more
+maintainable and flexible system.
+
+
+The intent of the Mediator Pattern is to reduce the complexity and dependencies between tightly coupled objects
+communicating directly with one another. This is achieved by creating a mediator object that takes care of the
+interaction between dependent objects. Consequently, all the communication goes through the mediator.
+
+

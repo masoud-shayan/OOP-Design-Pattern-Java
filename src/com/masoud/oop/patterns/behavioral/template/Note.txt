@@ -1,0 +1,9 @@
+Template Method is a behavioral design pattern that allows you to defines a skeleton of an algorithm in a
+base class and let subclasses override the steps without changing the overall algorithm’s structure.
+
+The Template Design Pattern is a behavioral design pattern that defines the structure of an algorithm in a method,
+but allows subclasses to override specific steps of that algorithm without changing its overall structure.
+
+
+In simpler words, the Template Design Pattern provides a blueprint for an algorithm, where certain steps are
+fixed and defined in a base class (the template), while other steps can be customized in derived classes.

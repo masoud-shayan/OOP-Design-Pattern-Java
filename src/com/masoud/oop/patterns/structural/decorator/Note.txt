@@ -1,0 +1,25 @@
+The Decorator design pattern is a structural pattern that allows you to add new behaviors or functionalities to
+objects without modifying their original code. It acts like "wrapping" an object with additional features.
+
+In simpler words, the Decorator pattern lets you extend the capabilities of an object dynamically by
+adding "decorators" around it. Each decorator is responsible for enhancing the behavior of the original
+object in a specific way. You can stack multiple decorators to create a combination of features.
+
+
+Decorator is a structural pattern that allows adding new behaviors to objects dynamically by placing them
+inside special wrapper objects, called decorators.
+
+Using decorators you can wrap objects countless number of times since both target objects and decorators follow
+the same interface. The resulting object will get a stacking behavior of all wrappers.
+
+
+Identification: Decorator can be recognized by creation methods or constructors that accept objects of the
+same class or interface as a current class.
+
+
+Adapter Vs Decorator :
+    1) Adapter helps different interfaces work together, while Decorator enhances an object's behavior by adding
+    new features without changing its original structure.
+    2) Decorator, attach additional responsibilities to an object dynamically. For example adding sugar in a coffee.
+    Adapter, adapts interface of an existing class to another interface. For example eletrical adapter.
+

@@ -1,0 +1,12 @@
+The singleton design pattern ensures that a class has one and only one instance and provides a way to access that instance globally.
+
+1. A_LazySingleton is not Thread Safe can be broken by reflection and Serializable (if we implement it)
+2. B_EagerSingleton is Thread Safe but create an instance and maybe never use it, so it is memory wasteful and can be broken by reflection and Serializable (if we implement it)
+3. C_MultiThreadSingleton is Thread Safe but can be broken by reflection and Serializable (if we implement it)
+4. D_EnumSingleton is Thread Safe and can not be broken by reflection but is has some inflexibility (we can Serialize it and Enum has a few restriction)
+
+note: if we are going to create a singleton which would not bbe broken by Serializable just need to add the following method inside the class:
+
+    protected Object readResolve() {
+        return instance;
+    }
